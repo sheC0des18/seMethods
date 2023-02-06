@@ -21,3 +21,5 @@ jobs:
         run: docker run --name semicontaainer -semimage
       - name: view logs 
         run: docker logs semcontainer
+
+CI: Workflow Checks
