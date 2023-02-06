@@ -19,7 +19,6 @@ jobs:
         run: docker build -t semimage .
       - name: Run Image
         run: docker run --name semicontaainer -semimage
-      - name: view logs 
+      - name: View logs
         run: docker logs semcontainer
 
-CI: Workflow Checks
