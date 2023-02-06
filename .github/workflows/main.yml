@@ -18,7 +18,7 @@ jobs:
       - name: Build Docker Image
         run: docker build -t semimage .
       - name: Run Image
-        run: docker run --name semicontaainer -semimage
+        run: docker run --name semicontainer -semimage
       - name: View logs
         run: docker logs semcontainer
 
